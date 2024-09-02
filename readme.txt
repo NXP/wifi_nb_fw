@@ -2,6 +2,7 @@
 	Production FW, for users:
 		rw61x_sb_wifi_a2.bin, for CPU1_wifi of redfinch A2 board
 		rw61x_sb_ble_a2.bin, for CPU2_ble of redfinch A2 board
+		rw61x_sb_ble_15d4_combo_a2.bin, for CPU2 ble_15d4 combo of redfinch A2 board
 
 2. where to get FW image:
 	In the directory:  /modules/hal/nxp/zephyr/blobs/rw61x

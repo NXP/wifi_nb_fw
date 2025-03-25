@@ -55,3 +55,22 @@ For NW61x -
 	(6) For example, the CMD to write Host image containing entire application image to flash in J-link window:
 		loadbin C:\xxx\zephyr.bin
 4. Only secured Wi-Fi and BT controller firmware images are supported.
+
+For IW610 -
+1. FW image names:
+	Production FW, for users:
+		sd_iw610.bin.se, for wifi cpu of IW610 board
+		uart_iw610_bt.bin.se, for ble cpu of IW610 board
+		sduart_iw610.bin.se, for combo cpus of IW610 board
+
+2. where to get FW image:
+	In the directory:  /modules/hal/nxp/zephyr/blobs/IW610
+
+3. How to load FW:
+	(1) For Wi-Fi only and BLE only applications use standalone firmware.
+	(2) User needs to make sure FW bin is placed at modules/hal/nxp/zephyr/blobs/IW610.
+	(3) Default FW bin names are listed in above section 1, don’t change these names, build system depends on these names find FW bin.
+	(4) On boot up host will load respective firmware images to CPU 1 or 2.
+	(5) For example, the CMD to write Host image containing entire application image to flash in J-link window:
+		loadbin C:\xxx\zephyr.bin
+4. Only secured Wi-Fi and BT controller firmware images are supported.

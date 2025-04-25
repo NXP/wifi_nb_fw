@@ -1,7 +1,7 @@
 Name: fw_bin
-Outgoing License: LA_OPT_NXP_Software_License v57 July 2024 - Additional distribution License - Section 2.3 applies
-License File: LICENSE
-Version: 18.99.6.p34-18.25.6.p36
+Outgoing License: LA_OPT_NXP_Software_License v60 February 2025 - Additional distribution license granted, Section 2.3 applies
+License File: LICENSE.txt
+Version: 18.99.6.p35-18.25.6.p35
 Format: Binary
 Description: CPU1 and CPU2 firmware binaries for RW61x
 Location: https://github.com/nxp/fw_bin

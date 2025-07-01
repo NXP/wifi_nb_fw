@@ -1,5 +1,5 @@
 Name: fw_bin
-Outgoing License: NXP Proprietary LA_OPT_NXP_Software_License v62 May 2025 - Additional distribution license granted, Section 2.3 applies
+Outgoing License: NXP Proprietary LA_OPT_NXP_Software_License v63 May 2025 - Additional distribution license granted, Section 2.3 applies
 License File: LICENSE.txt
 Version: 18.99.6.p40-18.25.6.p40
 Format: Binary

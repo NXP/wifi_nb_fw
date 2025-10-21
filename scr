@@ -3,7 +3,7 @@ Outgoing License: LA_OPT_NXP_Software_License v57 July 2024 - Additional distrib
 License File: LICENSE.txt
 Version: 18.99.6.p16-18.25.6.p16
 Format: Binary
-Description: CPU1 and CPU2 firmware binaries for RW61x
+Description: CPU1 and CPU2 firmware binaries and libcsi static library
 Location: https://github.com/nxp/fw_bin
 Origin: NXP (proprietary)
         hostapd (BSD 3-Clause) - http://hostap.epitest.fi/hostapd/

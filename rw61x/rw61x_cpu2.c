@@ -13,7 +13,11 @@
 #if CONFIG_MONOLITHIC_BLE_15_4
 const uint8_t fw_cpu2_combo[] __attribute__ ((aligned(4))) = {
 #if CONFIG_SOC_SERIES_RW6XX_REVISION_A2
+#if CONFIG_COMPRESS_FIRMWARE
+    #include <rw61x_sb_ble_15d4_combo_a2_compressed.bin.inc>
+#else
     #include <rw61x_sb_ble_15d4_combo_a2.bin.inc>
+#endif
 #else
 #error "Couldn't determine soc revision, please define CONFIG_SOC_SERIES_RW6XX_REVISION_A2"
 #endif

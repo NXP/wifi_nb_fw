@@ -23,10 +23,14 @@ Contributions are not currently accepted. Guidelines to contribute will be poste
 	These examples can load cpu1/2 fw automatically, don't need to load them seperately.
 
 2. FW image names:
-	Production FW, for users:
+	Production non-compressed FW, reduces startup time, but consumes more flash size:
 		rw61x_sb_wifi_a2.bin, for CPU1_wifi of redfinch a2 board
 		rw61x_sb_ble_a2.bin, for CPU2_ble of redfinch a2 board
 		rw61x_sb_ble_15d4_combo_a2.bin, for CPU2_ble_15.4_combo of redfinch a2 board
+	Production compressed FW, consumes less flash size, but increases startup time:
+		rw61x_sb_wifi_a2_compressed.bin, for CPU1_wifi of redfinch a2 board
+		rw61x_sb_ble_a2_compressed.bin, for CPU2_ble of redfinch a2 board
+		rw61x_sb_ble_15d4_combo_a2_compressed.bin, for CPU2_ble_15.4_combo of redfinch a2 board
 
 3. where to get FW image:
 	In the directory:  /components/conn_fwloader/fw_bin

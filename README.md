@@ -33,7 +33,7 @@ Contributions are not currently accepted. Guidelines to contribute will be poste
 		rw61x_sb_ble_15d4_combo_a2_compressed.bin, for CPU2_ble_15.4_combo of redfinch a2 board
 
 3. where to get FW image:
-	In the directory:  /components/conn_fwloader/fw_bin
+	In the directory:  /components/conn_fwloader/fw_bin/rw61x
 
 4. How to load FW:
 	Need to write the FW image to flash first, then the loadservice will download FW when power on.

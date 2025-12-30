@@ -1,9 +1,9 @@
 Name: fw_bin
 Outgoing License: NXP Proprietary LA_OPT_NXP_Software_License v63 May 2025 - Additional distribution license granted, Section 2.3 applies
 License File: LICENSE.txt
-Version: 18.99.6.p50-18.25.6.p50
+Version: 18.99.6.p52(rw61x) 18.99.5.p87(iw610x)
 Format: Binary
-Description: CPU1 and CPU2 firmware binaries for RW61x
+Description: CPU1 and CPU2 firmware binaries for rw61x and iw610x
 Location: https://github.com/NXP/wifi_nb_fw
 Origin: NXP (proprietary)
         hostapd (BSD 3-Clause) - https://w1.fi/hostapd/

@@ -6,11 +6,11 @@
  *
  */
 
-#if defined(RW610)
+#if defined(RW610_SERIES) || defined(RW612_SERIES)
 
 #include <stdint.h>
 
-#if CONFIG_MONOLITHIC_BLE_15_4
+#if CONFIG_MONOLITHIC_BLE_15_4 && defined(RW612_SERIES)
 const uint8_t fw_cpu2_combo[] __attribute__ ((aligned(4))) = {
 #if CONFIG_SOC_SERIES_RW6XX_REVISION_A2
 #if CONFIG_UNCOMPRESSED_FIRMWARE
@@ -36,6 +36,6 @@ const uint8_t fw_cpu2_ble[] __attribute__ ((aligned(4))) = {
 #endif
 };
 
-#endif /* CONFIG_MONOLITHIC_IEEE802154 */
+#endif
 
-#endif /* RW610 */
+#endif

@@ -6,7 +6,7 @@
  *
  */
 
-#if defined(RW610)
+#if defined(RW610_SERIES) || defined(RW612_SERIES)
 
 #include <stdint.h>
 
@@ -28,4 +28,4 @@ const unsigned char *wlan_fw_bin = (const unsigned char *)(void *)&fw_cpu1[0];
 const unsigned int wlan_fw_bin_len = sizeof(fw_cpu1);
 #endif /* CONFIG_MONOLITHIC_WIFI */
 
-#endif /* RW610 */
+#endif

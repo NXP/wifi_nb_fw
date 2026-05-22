@@ -16,7 +16,7 @@ Contributions are not currently accepted. Guidelines to contribute will be poste
 ## CPU1 and CPU2 firmware binaries for RW61x
 
 1.Examples that support monolithic image download do not need the steps 2-4 to load fw:
-    Wi-Fi examples: wifi_cli, wifi_wpa_supplicant, wifi_cert, wifi_test_mode
+	Wi-Fi examples: wifi_cli, wifi_wpa_supplicant, wifi_cert
 	ncp examples: ncp_device
 	coex examples: coex_wifi_edgefast, coex_zigbee
 

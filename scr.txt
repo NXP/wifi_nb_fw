@@ -1,7 +1,7 @@
 Name: fw_bin
 Outgoing License: LA_OPT_Online_Code_Hosting
 License File: LICENSE.txt
-Version: 18.99.8.p79(rw61x) 18.99.8.p79(iw610x) 18.99.8.68(iw612) 16.92.21.p156.1(SD8987) 16.92.21.p161(iw416)
+Version: 18.99.8.p79(rw61x) 18.99.8.p79(iw610x) 18.99.8.79(iw612) 16.92.21.p156.1(SD8987) 16.92.21.p161(iw416)
 Format: Binary
 Description: CPU1 and CPU2 firmware binaries and libcsi static library
 Location: https://github.com/NXP/wifi_nb_fw

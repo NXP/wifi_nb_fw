@@ -4,8 +4,8 @@ License File: LICENSE.txt
 Version:
          18.99.8.p147(rw61x)
          18.99.8.p147(iw610x)
-         18.99.8.p147(iw612)
-         16.92.21.p167(iw416)
+         18.99.8.p150(iw612)
+         16.92.21.p168(iw416)
          16.92.21.p156.4(SD8987)
 Format: Binary
 Description: CPU1 and CPU2 firmware binaries and libcsi static library

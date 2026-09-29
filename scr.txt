@@ -2,8 +2,8 @@ Name: fw_bin
 Outgoing License: LA_OPT_Online_Code_Hosting
 License File: LICENSE.txt
 Version:
-         18.99.8.p147(rw61x)
-         18.99.8.p147(iw610x)
+         18.99.8.p150(rw61x)
+         18.99.8.p150(iw610x)
          18.99.8.p150(iw612)
          16.92.21.p168(iw416)
          16.92.21.p156.4(SD8987)
